@@ -8,4 +8,4 @@ Great for testing simple deployments to the cloud
 
 `npm start`
 ## Craeting Docker Images 
-to use it for creating the deployment and services
+to use it for creating the deployment and service.
