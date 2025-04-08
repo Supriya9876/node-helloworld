@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: mydep
+  name: mydep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mydep
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: mydep
+    spec:
+      containers:
+      - image: sb346/nimage:latest
+        name: nimage
